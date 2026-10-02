@@ -2,8 +2,8 @@
 
 Simulador de decisiones estratégicas para la enseñanza de Historia de las Relaciones Internacionales. El jugador asume el papel de un decisor de la época (por ejemplo, Manuel I de Portugal) y debe elegir una estrategia aplicando los cinco pilares del realismo ofensivo (Mearsheimer, 2001): anarquía, incertidumbre, supervivencia, poder y racionalidad.
 
-**Jugar en línea:** [URL de GitHub Pages]
-**Cita recomendada:** véase [CITATION.cff](CITATION.cff) · DOI: [DOI de Zenodo]
+**Jugar en línea:** [https://iberian-strategic-simulator.github.io/iberian-strategic-simulator/]
+**Cita recomendada:** véase [CITATION.cff](CITATION.cff) · DOI: [https://doi.org/10.5281/zenodo.23101421]
 
 ## Estado del proyecto
 
