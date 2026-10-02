@@ -10,7 +10,7 @@ Simulador de decisiones estratégicas para la enseñanza de Historia de las Rela
 | Elemento | Estado |
 |---|---|
 | Menú principal con los 22 módulos | Operativo |
-| Módulo 12 (P.O.4) · La Crisis Matrimonial (1505-1516) | **Operativo** |
+| Módulo 12 (P.O.4) · La Crisis Matrimonial (1505-1506) | **Operativo** |
 | Módulos 1-11 y 13-22 | **En desarrollo** (plantilla en [CONTRIBUTING.md](CONTRIBUTING.md)) |
 
 Los 22 módulos se organizan en cuatro categorías: amenazas portuguesas (P.T.1-8), oportunidades portuguesas (P.O.1-4), amenazas españolas (E.T.1-6) y oportunidades españolas (E.O.1-4). El desarrollo del resto de módulos se realiza de forma colaborativa con estudiantes de la asignatura.
