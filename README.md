@@ -35,9 +35,9 @@ Tecnología: [Twine](https://twinery.org/) con el formato de historia [Harlowe](
 
 ## Base investigadora
 
-- Tesis doctoral (Universidad de Salamanca, 2024).
-- Journal of Regional Security (2025).
-- CGAP (2026), DOI: 10.5209/cgap.99670.
+- Tesis doctoral (Universidad de Salamanca, 2024)https://gredos.usal.es/bitstream/handle/10366/163489/Mart%C3%ADn%20Gonz%C3%A1lez%2C%20Carlos%20Manuel.pdf?sequence=1&isAllowed=y.
+- Journal of Regional Security (2025) https://scindeks.ceon.rs/Article.aspx?query=ARTAU%26and%26carlos&page=1&sort=1&stype=0&backurl=%2fSearchResults.aspx%3fquery%3dARTAU%2526and%2526carlos%26page%3d0%26sort%3d1%26stype%3d0&logart=2217-995X2601079M.
+- CGAP (2026), DOI: 10.5209/cgap.99670 https://revistas.ucm.es/index.php/CGAP/es/article/view/99670.
 
 ## Autoría y colaboradores
 
@@ -48,7 +48,7 @@ Tecnología: [Twine](https://twinery.org/) con el formato de historia [Harlowe](
 
 | Nombre o alias | Contribución |
 |---|---|
-| [Nombre o alias] | [Módulo / tarea] |
+| [Rafael Trenas Luque] | [Módulo / tarea] |
 
 Registro de propiedad intelectual: Registro Territorial de la Propiedad Intelectual de la Comunitat Valenciana, expediente 00765-03185523 (inscripción resuelta favorablemente el 4 de septiembre de 2026).
 
@@ -58,4 +58,4 @@ Este trabajo se distribuye bajo la licencia [Creative Commons Atribución-NoCome
 
 ## Contacto
 
-[Correo institucional de contacto]
+[carlosmanuel.martin@universidadeuropea.es]
