@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Si utilizas este software, por favor cítalo como se indica a continuación."
+title: "Iberian Strategic Simulator (ISS): Los 22 Módulos del Poder (1479-1516)"
+type: software
+authors:
+  - family-names: "Martín González"
+    given-names: "Carlos Manuel"
+    affiliation: "Universidad Europea de Valencia"
+    # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+abstract: >-
+  Simulador de decisiones estratégicas para la enseñanza de Historia de las
+  Relaciones Internacionales, basado en el realismo ofensivo (Mearsheimer, 2001).
+  El jugador resuelve dilemas estratégicos de la península ibérica entre 1479 y 1516.
+keywords:
+  - relaciones internacionales
+  - realismo ofensivo
+  - innovación docente
+  - simulación
+  - historia
+license: CC-BY-NC-SA-4.0
+version: "1.0.0"
+date-released: "AAAA-MM-DD"
+repository-code: "https://github.com/ORGANIZACION/iberian-strategic-simulator"
+url: "https://ORGANIZACION.github.io/iberian-strategic-simulator/"
+# doi: "10.5281/zenodo.XXXXXXX"

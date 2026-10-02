@@ -1,0 +1,357 @@
+::StoryTitle
+Iberian Strategic Simulator (ISS): Los 22 Modulos del Poder (1479-1516)
+
+::StoryData
+{
+  "ifid": "A4FB1112-D2A4-4A6B-9988-E22A14791516",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Menu-Principal"
+}
+
+::Menu-Principal
+# IBERIAN STRATEGIC SIMULATOR (ISS)
+
+## Simulador de Decisiones Estrategicas para Relaciones Internacionales
+
+**Basado en los 5 Pilares del Realismo Ofensivo (Mearsheimer, 2001):**
+
+| Pilar | Definicion |
+|-------|------------|
+| 1. ANARQUIA | No hay autoridad por encima de los estados |
+| 2. INCERTIDUMBRE/MIEDO | Nunca puedes estar seguro de las intenciones ajenas |
+| 3. SUPERVIVENCIA | El objetivo principal es sobrevivir |
+| 4. PODER | El poder garantiza la supervivencia. Maximizalo |
+| 5. RACIONALIDAD | Calcula costes y beneficios antes de decidir |
+
+---
+
+**Version 1.0.** Esta version incluye el **Modulo 12 (P.O.4)**, plenamente jugable. Los demas modulos estan en desarrollo y se iran incorporando con la participacion del grupo de trabajo de estudiantes.
+
+## SELECCIONA UN MODULO:
+
+### PORTUGAL - AMENAZAS (P.T.)
+
+| Modulo | Codigo | Evento | Periodo | Estado |
+|--------|--------|--------|---------|--------|
+| [[M1->PT1-Intro]] | P.T.1 | Conspiracion de Braganza | 1481-1484 | En desarrollo |
+| [[M2->PT2-Intro]] | P.T.2 | Tratado de Medina del Campo | 1489 | En desarrollo |
+| [[M3->PT3-Intro]] | P.T.3 | La Fortaleza de La Graciosa | 1486-1489 | En desarrollo |
+| [[M4->PT4-Intro]] | P.T.4 | La Crisis de Colon | 1492-1495 | En desarrollo |
+| [[M5->PT5-Intro]] | P.T.5 | La Expulsion de los Judios | 1496 | En desarrollo |
+| [[M6->PT6-Intro]] | P.T.6 | La Convencion de Sintra | 1509 | En desarrollo |
+| [[M7->PT7-Intro]] | P.T.7 | La Armada sobre Fez | 1510-1511 | En desarrollo |
+| [[M8->PT8-Intro]] | P.T.8 | La Ocupacion de Navarra | 1512 | En desarrollo |
+
+### PORTUGAL - OPORTUNIDADES (P.O.)
+
+| Modulo | Codigo | Evento | Periodo | Estado |
+|--------|--------|--------|---------|--------|
+| [[M9->PO1-Intro]] | P.O.1 | El Desastre de La Graciosa | 1486-1489 | En desarrollo |
+| [[M10->PO2-Intro]] | P.O.2 | El Espejismo de Jerusalen | 1496 | En desarrollo |
+| [[M11->PO3-Intro]] | P.O.3 | El Envite de Mazalquivir | 1500-1501 | En desarrollo |
+| **[[M12->PO4-Intro]]** | **P.O.4** | **LA CRISIS MATRIMONIAL (TESIS 2024)** | **1505-1516** | **Disponible** |
+
+### ESPAÑA - AMENAZAS (E.T.)
+
+| Modulo | Codigo | Evento | Periodo | Estado |
+|--------|--------|--------|---------|--------|
+| [[M13->ET1-Intro]] | E.T.1 | El Espectro de Juana | 1481-1483 | En desarrollo |
+| [[M14->ET2-Intro]] | E.T.2 | La Ruptura de las Tercerias | 1481-1484 | En desarrollo |
+| [[M15->ET3-Intro]] | E.T.3 | El Flanco Sur | 1486-1489 | En desarrollo |
+| [[M16->ET4-Intro]] | E.T.4 | El Desafio de Lencastre | 1493-1495 | En desarrollo |
+| [[M17->ET5-Intro]] | E.T.5 | El Enigma de Mazalquivir | 1501 | En desarrollo |
+| [[M18->ET6-Intro]] | E.T.6 | El Intento de Desmantelamiento | 1504-1506 | En desarrollo |
+
+### ESPAÑA - OPORTUNIDADES (E.O.)
+
+| Modulo | Codigo | Evento | Periodo | Estado |
+|--------|--------|--------|---------|--------|
+| [[M19->EO1-Intro]] | E.O.1 | El Estrecho Queda Abierto | 1489 | En desarrollo |
+| [[M20->EO2-Intro]] | E.O.2 | El Monarca Titere | 1495-1497 | En desarrollo |
+| [[M21->EO3-Intro]] | E.O.3 | La Alianza con Persia | 1513-1516 | En desarrollo |
+| [[M22->EO4-Intro]] | E.O.4 | (Caso adicional) | - | En desarrollo |
+
+---
+
+**Modulo destacado:** [[MODULO 12: P.O.4 - LA CRISIS MATRIMONIAL (TESIS 2024)->PO4-Intro]]
+
+---
+
+**Licencia:** CC BY-NC-SA 4.0
+
+**Autoria:** Carlos Manuel Martin Gonzalez, Universidad Europea de Valencia
+
+
+::PO4-Intro
+# MODULO 12 (P.O.4): La Crisis Matrimonial (1505-1516)
+
+## MICRO-LECCION (basada en la Tesis Doctoral 2024)
+
+**26 de noviembre de 1504. La reina Isabel de Castilla muere.**
+
+La mayoria cree que esto fue malo para Portugal. Mi tesis dice lo contrario.
+
+Fernando pierde el control de Castilla. Un Habsburgo (Felipe I) toma las riendas.
+
+**España ya no tiene una politica exterior unificada.**
+
+Esto no es una amenaza. Es una OPORTUNIDAD.
+
+**Tu objetivo a largo plazo:** Asegurar que, cuando Fernando muera (1516),
+no quede nadie para defender una politica exterior española independiente.
+
+---
+
+(set: $puntuacion to 0)
+(set: $estrategia to "Ninguna")
+
+[[Entiendo la coyuntura. Quiero jugar->PO4-Escenario]]
+
+::PO4-Escenario
+# SIMULACION: La Crisis de 1504-1506
+
+**Tu Rol:** Rey Manuel I de Portugal
+
+**Situacion:**
+- La reina Isabel acaba de morir.
+- Fernando de Aragon NO controla Castilla.
+- España no tiene una politica exterior unificada.
+
+**¿Que ordenas?**
+
+[[Opcion A: Movilizar ejercito y aliarse con Francia (Balancing).->PO4-Resultado-A]]
+
+[[Opcion B: No intervenir. Esperar a ver que pasa (Pasividad).->PO4-Resultado-B]]
+
+[[Opcion C: Enviar embajadas a los Habsburgo para una alianza matrimonial (Buck-Passing).->PO4-Resultado-C]]
+
+::PO4-Resultado-A
+(set: $puntuacion to 0)
+(set: $estrategia to "Balancing - Guerra Directa")
+# RESULTADO A: GUERRA (Contrafactico)
+
+**Consecuencia:** Fernando te ataca primero. Pierdes la guerra. Portugal es anexionado.
+
+**FIN DEL JUEGO: tu reino ha sido anexionado.**
+
+**Analisis de los 5 Pilares:**
+- P1 (Anarquia): ❌ No hay arbitro que te proteja
+- P2 (Incertidumbre): ❌ Tu movilizacion activo el miedo de Fernando
+- P3 (Supervivencia): ❌ Fracasaste
+- P4 (Poder): ❌ No pudiste igualar el poder de España
+- P5 (Racionalidad): ❌ Subestimaste la situacion
+
+**Puntuacion:** $puntuacion/100
+
+[[Ver informe final->PO4-Informe]]
+[[Volver al menu principal->Menu-Principal]]
+[[Reiniciar simulacion->PO4-Intro]]
+
+::PO4-Resultado-B
+(set: $puntuacion to 30)
+(set: $estrategia to "Pasividad - Do Nothing")
+# RESULTADO B: PASIVIDAD (Contrafactico parcial)
+
+**Desenlace:**
+Fernando recupera el control de Castilla. La amenaza persiste.
+La posicion del futuro emperador Carlos V frente a Portugal es **dudosa e incierta**.
+
+**Tu reino sobrevive a corto plazo, pero el futuro es incierto.**
+
+**Puntuacion:** $puntuacion/100
+
+**Leccion:** La pasividad no resuelve el problema estructural. La oportunidad se pierde.
+
+[[Ver informe final->PO4-Informe]]
+[[Volver al menu principal->Menu-Principal]]
+[[Reiniciar simulacion->PO4-Intro]]
+
+::PO4-Resultado-C
+(set: $puntuacion to 100)
+(set: $estrategia to "Buck-Passing - Alianza Habsburgo (TESIS 2024)")
+# RESULTADO C: ALIANZA CON LOS HABSBURGO (Historico)
+
+**Desenlace:**
+- **1515:** Congreso de Viena. La alianza se formaliza.
+- **1516:** Fernando de Aragon muere.
+- **Resultado:** No queda nadie para defender una politica exterior española independiente.
+  **Portugal queda protegido.**
+
+**Puntuacion:** $puntuacion/100
+
+**Leccion:** Esta es la jugada maestra identificada en tu Tesis Doctoral (2024).
+
+[[Ver informe final->PO4-Informe]]
+
+::PO4-Informe
+# INFORME FINAL - MODULO 12 (P.O.4)
+
+**Estrategia elegida:** $estrategia
+**Puntuacion final:** $puntuacion puntos sobre 100
+
+(if: $puntuacion is 100)[
+### EXCELENTE EJECUCION!
+Has entendido la logica del buck-passing.
+](else-if: $puntuacion is 30)[
+### ANALISIS
+Elegiste la Pasividad. La posicion de Carlos V es dudosa e incierta.
+](else:)[
+### ANALISIS
+Elegiste la Guerra. Era innecesaria e inviable.
+]
+
+**Base investigadora:**
+- Tesis Doctoral (2024)
+- Journal of Regional Security (2025)
+- CGAP (2026) DOI: 10.5209/cgap.99670
+
+[[Volver al menu principal->Menu-Principal]]
+[[Volver a jugar->PO4-Intro]]
+
+::PT1-Intro
+# MODULO 1 (P.T.1): Conspiracion de Braganza (1481-1484)
+
+**Este modulo esta en desarrollo.** Estara disponible en una proxima version del simulador.
+
+[[Volver al menu principal->Menu-Principal]]
+
+::PT2-Intro
+# MODULO 2 (P.T.2): Tratado de Medina del Campo (1489)
+
+**Este modulo esta en desarrollo.** Estara disponible en una proxima version del simulador.
+
+[[Volver al menu principal->Menu-Principal]]
+
+::PT3-Intro
+# MODULO 3 (P.T.3): La Fortaleza de La Graciosa (1486-1489)
+
+**Este modulo esta en desarrollo.** Estara disponible en una proxima version del simulador.
+
+[[Volver al menu principal->Menu-Principal]]
+
+::PT4-Intro
+# MODULO 4 (P.T.4): La Crisis de Colon (1492-1495)
+
+**Este modulo esta en desarrollo.** Estara disponible en una proxima version del simulador.
+
+[[Volver al menu principal->Menu-Principal]]
+
+::PT5-Intro
+# MODULO 5 (P.T.5): La Expulsion de los Judios (1496)
+
+**Este modulo esta en desarrollo.** Estara disponible en una proxima version del simulador.
+
+[[Volver al menu principal->Menu-Principal]]
+
+::PT6-Intro
+# MODULO 6 (P.T.6): La Convencion de Sintra (1509)
+
+**Este modulo esta en desarrollo.** Estara disponible en una proxima version del simulador.
+
+[[Volver al menu principal->Menu-Principal]]
+
+::PT7-Intro
+# MODULO 7 (P.T.7): La Armada sobre Fez (1510-1511)
+
+**Este modulo esta en desarrollo.** Estara disponible en una proxima version del simulador.
+
+[[Volver al menu principal->Menu-Principal]]
+
+::PT8-Intro
+# MODULO 8 (P.T.8): La Ocupacion de Navarra (1512)
+
+**Este modulo esta en desarrollo.** Estara disponible en una proxima version del simulador.
+
+[[Volver al menu principal->Menu-Principal]]
+
+::PO1-Intro
+# MODULO 9 (P.O.1): El Desastre de La Graciosa (1486-1489)
+
+**Este modulo esta en desarrollo.** Estara disponible en una proxima version del simulador.
+
+[[Volver al menu principal->Menu-Principal]]
+
+::PO2-Intro
+# MODULO 10 (P.O.2): El Espejismo de Jerusalen (1496)
+
+**Este modulo esta en desarrollo.** Estara disponible en una proxima version del simulador.
+
+[[Volver al menu principal->Menu-Principal]]
+
+::PO3-Intro
+# MODULO 11 (P.O.3): El Envite de Mazalquivir (1500-1501)
+
+**Este modulo esta en desarrollo.** Estara disponible en una proxima version del simulador.
+
+[[Volver al menu principal->Menu-Principal]]
+
+::ET1-Intro
+# MODULO 13 (E.T.1): El Espectro de Juana (1481-1483)
+
+**Este modulo esta en desarrollo.** Estara disponible en una proxima version del simulador.
+
+[[Volver al menu principal->Menu-Principal]]
+
+::ET2-Intro
+# MODULO 14 (E.T.2): La Ruptura de las Tercerias (1481-1484)
+
+**Este modulo esta en desarrollo.** Estara disponible en una proxima version del simulador.
+
+[[Volver al menu principal->Menu-Principal]]
+
+::ET3-Intro
+# MODULO 15 (E.T.3): El Flanco Sur (1486-1489)
+
+**Este modulo esta en desarrollo.** Estara disponible en una proxima version del simulador.
+
+[[Volver al menu principal->Menu-Principal]]
+
+::ET4-Intro
+# MODULO 16 (E.T.4): El Desafio de Lencastre (1493-1495)
+
+**Este modulo esta en desarrollo.** Estara disponible en una proxima version del simulador.
+
+[[Volver al menu principal->Menu-Principal]]
+
+::ET5-Intro
+# MODULO 17 (E.T.5): El Enigma de Mazalquivir (1501)
+
+**Este modulo esta en desarrollo.** Estara disponible en una proxima version del simulador.
+
+[[Volver al menu principal->Menu-Principal]]
+
+::ET6-Intro
+# MODULO 18 (E.T.6): El Intento de Desmantelamiento (1504-1506)
+
+**Este modulo esta en desarrollo.** Estara disponible en una proxima version del simulador.
+
+[[Volver al menu principal->Menu-Principal]]
+
+::EO1-Intro
+# MODULO 19 (E.O.1): El Estrecho Queda Abierto (1489)
+
+**Este modulo esta en desarrollo.** Estara disponible en una proxima version del simulador.
+
+[[Volver al menu principal->Menu-Principal]]
+
+::EO2-Intro
+# MODULO 20 (E.O.2): El Monarca Titere (1495-1497)
+
+**Este modulo esta en desarrollo.** Estara disponible en una proxima version del simulador.
+
+[[Volver al menu principal->Menu-Principal]]
+
+::EO3-Intro
+# MODULO 21 (E.O.3): La Alianza con Persia (1513-1516)
+
+**Este modulo esta en desarrollo.** Estara disponible en una proxima version del simulador.
+
+[[Volver al menu principal->Menu-Principal]]
+
+::EO4-Intro
+# MODULO 22 (E.O.4): Caso adicional
+
+**Este modulo esta en desarrollo.** Estara disponible en una proxima version del simulador.
+
+[[Volver al menu principal->Menu-Principal]]
